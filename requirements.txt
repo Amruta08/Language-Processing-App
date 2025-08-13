@@ -213,12 +213,6 @@ stack-data==0.6.3
 streamlit==1.27.2
 sympy==1.12
 tenacity==8.2.2
-tensorboard==2.14.1
-tensorboard-data-server==0.7.1
-tensorflow==2.14.0
-tensorflow-estimator==2.14.0
-tensorflow-intel==2.14.0
-tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.3.0
 textblob==0.17.1
 textstat==0.7.3
@@ -258,5 +252,6 @@ yarl==1.7.2
 yfinance==0.2.12
 zipp==3.10.0
 zope.interface==6.2
+
 
 
