@@ -7,10 +7,10 @@ import spacy
 from crochet import setup, wait_for
 from twisted.internet import reactor
 from twisted.internet.defer import inlineCallbacks, DeferredList
+
 nlp = spacy.load('en_core_web_sm')
 setup()
 article_list = []
-
 
 class BlogspiderSpider(scrapy.Spider):
     name = "blogspider"
@@ -54,17 +54,8 @@ def scrape_urls(urls):
     
     yield DeferredList(deferreds, fireOnOneErrback=True)
 
-    # for url in urls:
-    #     filename = BlogspiderSpider(url).output_file
-    #     if os.path.isfile(filename) and os.path.getsize(filename) > 0:
-    #         df = pd.read_csv(filename)
-    #         Total_text = ''.join(df['content'])
-    #         article_list.append(Total_text)
-    #         os.remove(filename)
-
 @inlineCallbacks   
 def plagarism(prompt):
-    query = """This law explains how the number of transistors on integrated circuits is increasing exponentially, which boosts computing capability and lowers prices. More law is all abt phy."""
     query = prompt
     num_results = 1
     return_list = []
