@@ -11,7 +11,6 @@ from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
 from heapq import nlargest
 from collections import Counter
-from Plagarism import plagarism
 import crochet
 stopwords = list(STOP_WORDS)
 nlp = spacy.load('en_core_web_sm')
@@ -183,20 +182,6 @@ def summarize():
         char_count = len(summarize_text.replace(" ", ""))
         keyword_obj = keywords(data)
     return render_template("summarize.html", outp=summarize_text, plain=data, pol=senti, read=fre, wc=word_count, cc=char_count, obj=keyword_obj)
-
-@app.route("/check", methods=['GET', 'POST'])
-def check():
-    plag_results = ""
-    data = ""
-    if request.method == 'POST':
-        data = request.form['plaintext']
-        plag_results = plagarism(data)
-    return render_template("check.html", outp=plag_results, plain=data)
-
-@app.route("/info", methods=['GET'])
-def info():
-    return render_template("info.html")
-
 
 @app.route('/record_audio', methods=['POST'])
 def record_audio():
