@@ -18,6 +18,8 @@ textstat==0.7.3
 PyAudio==0.2.13
 setuptools==69.5.1
 wheel==0.43.0
+tqdm==4.64.1
+
 
 
 
