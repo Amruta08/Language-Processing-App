@@ -16,6 +16,9 @@ SpeechRecognition==3.10.0
 textblob==0.17.1
 textstat==0.7.3
 PyAudio==0.2.13
+setuptools
+wheel
+
 
 
 
