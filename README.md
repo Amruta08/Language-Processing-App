@@ -1,5 +1,7 @@
 ## Langauge Processing App
-Flask based language processing application, which offers functionalities of grammar correction, sentiment analysis, readability ease score, text summarization and English to Devanagari translation
+<p>Flask based language processing application, which offers functionalities of grammar correction, sentiment analysis, readability ease score, text summarization and English to Devanagari translation</p>
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-69201-7_17">Paper link</a>
+
 <hr/>
 
 ### Program Output 
