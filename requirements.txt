@@ -24,7 +24,6 @@ certifi==2022.9.24
 cffi==1.15.1
 chardet==3.0.4
 charset-normalizer==2.1.1
-click==7.1.2
 cloudpathlib==0.16.0
 colorama==0.4.6
 commonmark==0.9.1
@@ -244,4 +243,5 @@ yarg==0.1.9
 yarl==1.7.2
 zipp==3.10.0
 zope.interface==6.2
+
 
