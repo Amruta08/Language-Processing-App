@@ -227,7 +227,6 @@ w3lib==2.1.2
 wasabi==0.10.1
 watchdog==3.0.0
 wcwidth==0.2.13
-weasel==0.3.3
 webencodings==0.5.1
 Werkzeug==2.1.2
 whisper==1.1.10
@@ -237,6 +236,7 @@ yarg==0.1.9
 yarl==1.7.2
 zipp==3.10.0
 zope.interface==6.2
+
 
 
 
