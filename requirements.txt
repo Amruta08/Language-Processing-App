@@ -218,7 +218,7 @@ traitlets==5.14.3
 twine==4.0.1
 Twisted==23.10.0
 twisted-iocpsupport==1.0.4
-typer==0.3.2
+typer>=0.10
 typing_extensions==4.8.0
 tzdata==2022.5
 tzlocal==5.1
@@ -239,6 +239,7 @@ yarg==0.1.9
 yarl==1.7.2
 zipp==3.10.0
 zope.interface==6.2
+
 
 
 
