@@ -170,8 +170,6 @@ pypiwin32==223
 python-dateutil==2.8.2
 pyttsx3==2.90
 pytz==2022.7.1
-pywin32==306
-pywin32-ctypes==0.2.0
 PyYAML==6.0
 pyzmq==27.0.1
 queuelib==1.6.2
@@ -246,3 +244,4 @@ yarg==0.1.9
 yarl==1.7.2
 zipp==3.10.0
 zope.interface==6.2
+
